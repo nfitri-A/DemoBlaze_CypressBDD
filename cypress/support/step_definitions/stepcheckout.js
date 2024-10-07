@@ -4,7 +4,7 @@ import CheckoutPage from '../../e2e/pages/CheckoutPage'
 const checkoutPage = new CheckoutPage()
 
 beforeEach( () => {
-    cy.visit('https://www.demoblaze.com/index.html', { timeout: 10000});
+    cy.visit('https://www.demoblaze.com/', { timeout: 10000});
 });
 
 Given('I successfully login', () => {

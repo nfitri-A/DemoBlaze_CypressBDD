@@ -4,7 +4,7 @@ import LogoutPage from '../../e2e/pages/LogoutPage'
 const logoutPage = new LogoutPage()
 
 beforeEach( () => {
-    cy.visit('https://www.demoblaze.com/index.html', { timeout: 10000});
+    cy.visit('https://www.demoblaze.com/', { timeout: 10000});
 });
 
 When('I successfully log in and log out of the demoblaze website', () => {

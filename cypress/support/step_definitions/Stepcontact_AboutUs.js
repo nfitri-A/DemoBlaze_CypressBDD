@@ -4,7 +4,7 @@ import Contact_AboutUsPage from '../../e2e/pages/Contact_AboutUsPage'
 const contact_AboutUsPage = new Contact_AboutUsPage()
 
 beforeEach( () => {
-    cy.visit('https://www.demoblaze.com/index.html', { timeout: 10000});
+    cy.visit('https://www.demoblaze.com/', { timeout: 10000});
 });
 
 When('I input an email address and type a message', () => {

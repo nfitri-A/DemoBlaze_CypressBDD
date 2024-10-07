@@ -4,7 +4,7 @@ import LoginPage from '../../e2e/pages/LoginPage'
 const loginPage = new LoginPage()
 
 beforeEach( () => {
-    cy.visit('https://www.demoblaze.com/index.html', { timeout: 10000});
+    cy.visit('https://www.demoblaze.com/', { timeout: 10000});
 });
 
 When('I did not input username and password', () => {
